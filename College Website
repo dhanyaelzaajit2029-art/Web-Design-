@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Event</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #004080; color: white; padding: 20px; text-align: center; }
+        nav { padding: 10px; background: #003366; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { padding: 20px; }
+        .event-details { display: flex; justify-content: space-between; }
+        .event-image { max-width: 300px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+        th { background: #f2f2f2; }
+        @media (max-width: 600px) { .event-details { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>College Annual Event</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Events</a>
+        <a href="#">Registration</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <section class="event-details">
+            <img src="path/to/image.jpg" alt="Event Image" class="event-image">
+            <div>
+                <h2>Event Title</h2>
+                <p>Date: April 30, 2026</p>
+                <p>Description: Join us for an exciting day filled with activities, talks, and networking opportunities!</p>
+            </div>
+        </section>
+
+        <h3>Event Schedule</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>Registration</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>Opening Speech</td>
+                </tr>
+                <tr>
+                    <td>12:00 PM</td>
+                    <td>Panel Discussion</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td>Networking Lunch</td>
+                </tr>
+                <tr>
+                    <td>2:00 PM</td>
+                    <td>Workshops</td>
+                </tr>
+                <tr>
+                    <td>4:00 PM</td>
+                    <td>Closing Remarks</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
